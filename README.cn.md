@@ -8,7 +8,7 @@
 
 ## 使用方法
 
-在 `.github/workflows/*.yml` 云编译脚本中引入此 Actions 即可使用，例如 [build-openwrt-armvirt.yml](https://github.com/ophub/op/blob/main/.github/workflows/build-openwrt-armvirt.yml#L144) ，代码如下：
+在 `.github/workflows/*.yml` 云编译脚本中引入此 Actions 即可使用，例如 [build-openwrt-armvirt.yml](.github/workflows/build-openwrt-armvirt.yml) ，代码如下：
 
 ```yaml
 
@@ -70,7 +70,7 @@
 
 ## OpenWrt 固件个性化定制说明
 
-此 `Actions` 仅提供 OpenWrt 打包服务，你需要自己编译 `openwrt-armvirt-64-default-rootfs.tar.gz` ，编译方法可以查看 [armvirt_64](https://github.com/ophub/op/tree/main/router/armvirt_64)
+此 `Actions` 仅提供 OpenWrt 打包服务，你需要自己编译 `openwrt-armvirt-64-default-rootfs.tar.gz` ，编译方法可以查看 [router-config](router-config)
 
 ## 鸣谢
 
